@@ -15,3 +15,25 @@ AWS Account: Ensure you have an AWS account.
 Terraform: Install Terraform (version 1.0 or later).
 AWS CLI: Set up the AWS CLI and configure your credentials.
 SSH Key: A key pair for accessing EC2 instances.
+
+Setup Guide
+Clone the Repository:
+
+bash
+
+git clone https://github.com/your-username/aws-3-tier-terraform.git
+cd aws-3-tier-terraform
+Initialize Terraform:
+
+bash
+
+terraform init
+Review and Apply Configuration:
+
+bash
+
+terraform apply
+Access the Application:
+
+Use the bastion host to securely connect to the private instances.
+Access the web application via the load balancer's DNS name.
